@@ -22,7 +22,7 @@ spec:
       containers:
       - env:
         - name: WORDPRESS_DB_HOST
-          value: mysql
+          value: msyql
         - name: WORDPRESS_DB_PASSWORD
           valueFrom:
             secretKeyRef:
